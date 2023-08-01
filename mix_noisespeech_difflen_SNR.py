@@ -8,6 +8,7 @@ from scipy.io.wavfile import read, write
 import random
 import re
 
+### Change paths to the path where your noise files, speech files are stored, and where the output files should be stored.
 noisefolderpath = "OtherNoise_leftovers/test_noises"     # "OtherNoise_leftovers/train_noises"    # NB don't include final slash
 speechfolderpath = "LibriSpeech/test-clean"            # "LibriSpeech/dev-clean"                # NB don't include final slash
 finalfolder = "OtherNoise_final/test_selfmade"         # "OtherNoise_final/train"               # NB don't include final slash
